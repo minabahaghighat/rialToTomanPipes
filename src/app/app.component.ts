@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'rialToTomanPipes';
+  inputAmount: number=0;
+
+  handleInputAmount(value:number){
+      this.inputAmount=value
+  }
 }
